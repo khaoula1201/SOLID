@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Sensor
 {
-    public void register(Door door)
+    public void register(ISensing door)
     {
         while (true) {
             if (isPersonClose()) {
